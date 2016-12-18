@@ -20,5 +20,12 @@ http://cldr.unicode.org/
 > ICU( the International Components for Unicode  libraries)  
 http://userguide.icu-project.org/formatparse/messages  
 
+## The main features of the library are:
 
-
++ Number formatting and parsing
++ Date and time formatting and parsing
++ Relative time formatting
++ Currency formatting
++ Message formatting
++ Plural support
++ Unit support
