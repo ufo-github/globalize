@@ -1,15 +1,31 @@
-# JavaScript Globalization 
+# JavaScript Globalization  
 
-https://github.com/globalizejs/globalize  
+https://github.com/ufo-github/globalize/tree/master/Tutorial  
+https://github.com/ufo-github/Intl.js  
+https://github.com/ufo-github/i18next  
 
-
-https://github.com/rxaviers/javascript-globalization  
-
-http://formatjs.io/github/  
 
 ## ECMAScript Internationalization API Specification  
 http://www.ecma-international.org/ecma-402/1.0/ECMA-402.pdf  
 http://www.ecma-international.org/ecma-402/1.0/  
+
+```js
+
+let x = new Date();
+
+window.Intl.DateTimeFormat('en-US').format(x);
+Intl.DateTimeFormat('en-US').format(x);
+// "12/18/2016"
+
+window.Intl.DateTimeFormat('zh-CN').format(x);
+Intl.DateTimeFormat('zh-CN').format(x);
+// "2016/12/18"
+``` 
+
+## Compatibility implementation of (ECMA-402)
+https://github.com/ufo-github/Intl.js  
+
+
 
 ## CLDR - Unicode Common Locale Data Repository  
 http://cldr.unicode.org/  
@@ -20,12 +36,39 @@ http://cldr.unicode.org/
 > ICU( the International Components for Unicode  libraries)  
 http://userguide.icu-project.org/formatparse/messages  
 
-## The main features of the library are:
 
-+ Number formatting and parsing
-+ Date and time formatting and parsing
-+ Relative time formatting
-+ Currency formatting
-+ Message formatting
-+ Plural support
-+ Unit support
+
+## The main features of the library are: 库的主要功能包括：
+
++ Number formatting and parsing 数字格式化和解析
++ Date and time formatting and parsing 日期和时间格式化和解析
++ Relative time formatting 相对时间格式化
++ Currency formatting 货币格式化
++ Message formatting 消息格式化
++ Plural support 多/复数 支持
++ Unit support 单位/单元 支持
+
+
+## Pluralization 多元化  
+
+
+## i18next internationalization framework  
+http://i18next.com/  
+https://github.com/ufo-github/i18next  
+
+https://github.com/i18next/react-i18next  
+
+http://cldr.unicode.org/index/downloads/cldr-30  
+
+http://rxaviers.github.io/globalize-modern-apps/#/0/17  
+
+
+# JavaScript Globalization 
+https://github.com/globalizejs/globalize  
+https://github.com/rxaviers/javascript-globalization  
+http://formatjs.io/github/  
+
+```codes
+
+``` 
+
